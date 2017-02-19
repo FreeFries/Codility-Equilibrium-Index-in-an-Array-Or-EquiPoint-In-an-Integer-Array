@@ -5,9 +5,9 @@
 ### What is the gist (should this have been a github gist) of the problem posed by Codility ?
 --------------------------------------------------------------------------------------------
 
-Basically, Codility wants you to traverse an array of numbers (ints) and at every point it wants you to calculate a sum to the LHS of that position in the array and a sum to the RHS as well. If, the sums match you should report that position of that array since it is an **"equi-point"**. By the way what is not made clear is that none of the sums include the point of the array you are currently in. The problem is worded in so much mathematical jargon that most of your time to solve this programming riddle is wasted in understanding what they really want from you.
+Basically, Codility wants you to traverse an array of numbers (ints) and at every point it wants you to calculate a sum to the LHS of that position in the array and a sum to the RHS as well. If, the sums match you should report that position of that array since it is an **"equi-point"**. By the way what is not made clear is that none of the sums include the point of the array you are currently in. The problem is worded in so much mathematical jargon that most of your time to solve this programming riddle is wasted in understanding what they really want you to do.
 
-To make matters worst it should be performant. Effectively you should 
+To make matters worst it should be performant. Effectively you should
 
 1. Traverse the array in one loop
 2. Calculate the LHS sum without using a second loop
